@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="EMTV" name="Repositorio EMTV" version="0.1.0" provider-name="Raul Pizarro">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Repositorio EMTV">
+            <info compressed="false">https://raw.githubusercontent.com/electronicamartinez/EMTV_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/electronicamartinez/EMTV_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/electronicamartinez/EMTV_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositorio con las modificaciones de EMTV para EMTV</summary>
+            <description>Repositorio con las modificaciones de EMTV para EMTV</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
